@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://easy-quest.github.io/facebook-docusaurus-qwd9bn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'easy-quest', // Обычно ваше имя организации/пользователя на GitHub.
-  projectName: 'my-docs', // Usually your repo name.
+  // organizationName: 'easy-quest', // Обычно ваше имя организации/пользователя на GitHub.
+  projectName: 'facebook-docusaurus-qwd9bn', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Пожалуйста, измените это на свое репо.
-          editUrl: 'https://github.com/easy-quest/my-docs/edit/main/website/',
+          editUrl: 'https://github.com/easy-quest/facebook-docusaurus-qwd9bn/edit/',
         },
         blog: {
           showReadingTime: true,
           // Пожалуйста, измените это на свое репо.
           editUrl:
-            'https://github.com/easy-quest/my-docs/edit/main/website/blog/',
+            'https://github.com/easy-quest/facebook-docusaurus-qwd9bn/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
