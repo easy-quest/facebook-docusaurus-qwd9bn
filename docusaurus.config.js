@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'easy-quest', // Обычно ваше имя организации/пользователя на GitHub.
+  projectName: 'my-docs', // Usually your repo name.
 
   presets: [
     [
@@ -23,14 +23,14 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // Пожалуйста, измените это на свое репо.
+          editUrl: 'https://github.com/easy-quest/my-docs/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          // Пожалуйста, измените это на свое репо.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/easy-quest/my-docs/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
